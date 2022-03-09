@@ -7,7 +7,7 @@ export const HeaderLogo = () => {
     <div className="logo">
       <NavLink to="/" className="logo">
         <FontAwesomeIcon className="icon" icon={faCode} />
-        Web<span>Development</span>
+        Web<span>Dev</span>
       </NavLink>
     </div>
   );

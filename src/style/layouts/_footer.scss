@@ -23,20 +23,16 @@
         padding-right: 2rem;
         transition: all 0.5s ease;
       }
-    }
-
-    p {
-      font-size: 1.5rem;
-      color: $primaryText;
-      padding: 1rem 0;
-      i {
+      span{
         color: $primaryColor;
-      }
-      .iconC {
-        padding-right: 1rem;
+        margin-left: .5rem;
       }
     }
-
+    p{
+      font-size: 1.5rem;
+      padding: 1rem 0;
+      color: $primaryText;
+    }
     form input[type="email"] {
       width: 100%;
       padding: 1rem 1.2rem;
@@ -65,7 +61,7 @@
           align-items: center;
         }
         &:hover {
-          background-color: $primaryText;
+          background: $darkPrimaryColor;
           transition: all 0.5s ease;
         }
       }

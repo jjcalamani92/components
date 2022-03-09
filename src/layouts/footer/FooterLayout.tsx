@@ -1,7 +1,16 @@
-import { Footer } from './Footer'
+import { FooterLink } from './FooterLink';
+import { FooterHorario } from './FooterHorario';
+import { FooterContact } from './FooterContact';
+import { FooterInfo } from './FooterInfo';
 
 export const FooterLayout = () => {
   return (
-    <Footer/>
+    <footer className="footer">
+      <FooterLink/>
+      <FooterHorario/>
+      <FooterContact/>
+      <FooterInfo/>
+      
+    </footer>
   )
 }

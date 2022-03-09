@@ -41,6 +41,12 @@ export const HeaderLayout = () => {
                 </div>
                 <HeaderSearch_5/>
             </header>
+
+            <header className='header-6'>
+                <HeaderLogo_5/>
+                <HeaderNavbar_5/>
+                <HeaderSearch_5/>
+            </header>
         </>
         
 
